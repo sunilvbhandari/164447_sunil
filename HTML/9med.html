@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>player</title>
+</head>
+<body>
+
+
+
+
+
+
+<div style="text-align:center"> 
+
+<video id="vid"  width="400" controls>
+  <source src="Wildlife.mp4" type="video/mp4">
+  <source src="Wildlife.ogg" type="video/ogg">
+ 
+</video>
+  <br><br>
+<button  onclick="mute()" >Mute</button> 
+<button  onclick="Unmute()">Unmute</button>
+<button onclick="pause()">Pause</button>
+<button onclick="play()">Play</button>
+<button onclick="fullscreen()">fullscreen</button>
+<button >forward</button>
+<button >backward</button>
+<button >shuffle</button>
+<button>repeat</button>
+
+</div> 
+
+
+<div style="text-align:center"> 
+
+<audio width="400" controls>
+<source src="Wildlife.wmv" type="audio/mp3">
+<source src="Wildlife.ogg" type="audio/ogg">
+</audio>
+  <br><br>
+<button >Mute</button> 
+<button >Unmute</button>
+<button >Pause</button>
+<button >Play</button>
+<button >fullscreen</button>
+<button >forward</button>
+<button >backward</button>
+<button >shuffle</button>
+<button >repeat</button>
+
+</div> 
+<script>
+function mute(){
+var myvideo=document.getElementById("vid");
+myvideo.muted();
+}
+function Unmute(){
+var myvideo=document.getElementById("vid");
+myvideo.play();
+}
+function play(){
+var myvideo=document.getElementById("vid");
+myvideo.play();
+}
+function pause(){
+var myvideo=document.getElementById("vid");
+myvideo.pause();
+}
+function fullscreen(){
+var myvideo=document.getElementById("vid");
+myvideo.play();
+}
+</script>
+</body>
+</html>
