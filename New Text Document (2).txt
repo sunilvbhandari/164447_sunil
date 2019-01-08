@@ -1,0 +1,1 @@
+https://app.pluralsight.com/player?course=angular-nodejs-restful-services&author=dan-wahlin&name=angular-nodejs-restful-services-m1&clip=4&mode=live
